@@ -1,0 +1,16 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "get-weather": "env-cmd -f ./config/tokens.env node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "env-cmd": "^10.1.0",
+    "request": "^2.88.2"
+  }
+}
